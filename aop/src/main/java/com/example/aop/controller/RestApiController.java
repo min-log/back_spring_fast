@@ -1,21 +1,44 @@
 package com.example.aop.controller;
 
+import com.example.aop.annotation.Decode;
 import com.example.aop.annotation.Timer;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.example.aop.dto.User;
+import org.springframework.util.StopWatch;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
 public class RestApiController {
 
-    @Timer //직접 만든 어노테이션
-    @DeleteMapping("/delete")
-    public void delete(){
-        try {
-            Thread.sleep(1000 * 2);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+    @GetMapping("/get/{id}")
+    public String get(@PathVariable Long id, @RequestParam String name){
+        // TODO
+
+        return id+ " "+ name;
     }
+
+    @PostMapping("/post")
+    public User post(@RequestBody User user){
+
+
+        return user;
+    }
+
+    @Timer
+    @DeleteMapping("/delete")
+    public void delete() throws InterruptedException {
+
+        // db logic
+        Thread.sleep(1000 * 2);
+
+    }
+
+    @Decode
+    @PutMapping("/put")
+    public User put(@RequestBody User user){
+        System.out.println("put");
+        System.out.println(user);
+        return user;
+    }
+
 }

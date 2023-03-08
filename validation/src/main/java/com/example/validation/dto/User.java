@@ -1,14 +1,11 @@
 package com.example.validation.dto;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
+import javax.validation.constraints.*;
 
 public class User {
-    //@NotBlank(message = "이름을 확인해주세요.")
+    @NotBlank(message = "이름을 확인해주세요.")
     private String name;
-    //@NotNull(message = "나이를 확인해주세요.")
+    @Min(value = 10, message = "나이를 확인해주세요.")
     private int age;
     @Email(message = "이메일 형식을 확인해주세요.")
     private String email;

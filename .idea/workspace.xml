@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92140b6c-24b6-49e7-af07-0364244f1961" name="변경" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/example/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/example/server/ServerApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="92140b6c-24b6-49e7-af07-0364244f1961" name="변경" comment="commit 230312" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -64,7 +61,7 @@
       <workItem from="1678618877254" duration="475000" />
       <workItem from="1678619427897" duration="1404000" />
       <workItem from="1678621690746" duration="144000" />
-      <workItem from="1678628540339" duration="205000" />
+      <workItem from="1678628540339" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678620202981</created>
@@ -80,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678621728463</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit 230312">
+      <created>1678629046375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678629046375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commit 230312" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 230312" />
   </component>
 </project>

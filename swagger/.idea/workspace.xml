@@ -80,7 +80,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/back_study/project/foodList",
+    "last_opened_file_path": "C:/back_study/back_spring_fast/validation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,6 +108,7 @@
       <updated>1678690049664</updated>
       <workItem from="1678690051628" duration="862000" />
       <workItem from="1678690934090" duration="59000" />
+      <workItem from="1678762575775" duration="36000" />
     </task>
     <servers />
   </component>

@@ -2,15 +2,30 @@ package com.fastcampus.jpa.bookmanager.domain;
 
 import org.junit.jupiter.api.Test;
 
+import java.time.LocalDateTime;
+
+/**
+ * @author Martin
+ * @since 2021/03/10
+ */
 class UserTest {
     @Test
-    void test(){
-        Users user = new Users();
-        user.setEmail("mm@gmail.com");
-        user.setName("MM");
-        System.out.println(user);
-        Users user1 = Users.builder().name("길동이").email("ma@naver.com").build();
+    void test() {
+        User user = new User();
+        user.setEmail("martin@fastcampus.com");
+        user.setName("martin");
+        user.setCreatedAt(LocalDateTime.now());
+        user.setUpdateAt(LocalDateTime.now());
 
+//        User user1 = new User(null, "martin", "martin@fastcampus.com", LocalDateTime.now(), LocalDateTime.now());
+        User user2 = new User("martin", "martin@fastcampus.com");
+
+        User user3 = User.builder()
+                .name("martin")
+                .email("martin@fastcampus.com")
+                .build();
+
+        System.out.println(">>> " + user.toString());
     }
 
 }

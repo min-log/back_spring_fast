@@ -1,20 +1,26 @@
 package com.fastcampus.jpa.bookmanager.repository;
 
-import com.fastcampus.jpa.bookmanager.domain.Users;
+import com.fastcampus.jpa.bookmanager.domain.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-
-@SpringBootTest //스프킹 컨텍스트를 실행해서 태스트
+import javax.transaction.Transactional;
+import java.time.LocalDateTime;
+@SpringBootTest
+@Transactional
 class UserRepositoryTest {
     @Autowired
-    UserRepository userRepository;
+    private UserRepository userRepository;
+
 
     @Test
-    public void crud(){ //creat , read ,update,delete 기본적인
-        userRepository.save(new Users()); //유저 생성 및 저장
-        System.out.println(">>"+userRepository.findAll());//유저 테이블의 모든 데이터를 리스트 형식으로 가져온다.
-    }
+    void crud() { // create, read, update, delete
+        userRepository.save(new User("david", "david@fastcampus.com"));
 
+        User user = userRepository.findById(1L).orElseThrow(RuntimeException::new);
+        user.setEmail("martin-updated@fastcampus.com");
+
+        userRepository.save(user);
+    }
 }

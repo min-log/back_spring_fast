@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92140b6c-24b6-49e7-af07-0364244f1961" name="변경" comment="commit Api 사용하는 방법 공부">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="92140b6c-24b6-49e7-af07-0364244f1961" name="변경" comment="commit Api 사용하는 방법 공부" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -75,6 +72,7 @@
       <workItem from="1679023012671" duration="122000" />
       <workItem from="1679992847520" duration="1359000" />
       <workItem from="1680004010361" duration="123000" />
+      <workItem from="1680086345632" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678620202981</created>
